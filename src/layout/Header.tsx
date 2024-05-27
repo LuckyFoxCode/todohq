@@ -4,7 +4,7 @@ import { CiCalendar } from 'react-icons/ci';
 
 export const Header: React.FC = () => {
   return (
-    <header className='flex items-center justify-between transition-colors bg-[#f8f8f8] dark:bg-slate-800 pt-8 pb-6 px-[70px]'>
+    <header className='pt-8 pb-6 px-[70px] flex items-center justify-between transition-all bg-[#f8f8f8] dark:bg-slate-800 shadow-lg shadow-slate-200 dark:shadow-slate-700'>
       <a
         href='/'
         className='flex font-semibold text-3xl text-rose-500'
