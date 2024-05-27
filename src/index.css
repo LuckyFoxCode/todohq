@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '@fontsource/montserrat';
+@import '@fontsource/inter';
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
