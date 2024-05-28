@@ -1,3 +1,5 @@
+export * from './AsideNav/';
+export * from './AsideUserInfo/';
 export * from './HeaderGroupButton/';
 export * from './HeaderLogo/';
 export * from './HeaderSearch/';
