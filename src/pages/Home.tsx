@@ -5,7 +5,7 @@ export const Home: React.FC = () => {
     <>
       <Header />
       <Aside />
-      <main className=' flex justify-end pr-[70px] pb-8'>
+      <main className='w-full flex justify-end pr-[70px] pb-8'>
         <Content />
       </main>
     </>

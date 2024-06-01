@@ -1,7 +1,7 @@
 import { routers } from '@/lib/constsnts';
 import { CiLogout } from 'react-icons/ci';
-import { AsideNavLink } from '../AsideNavLink';
 import { Icon } from '../ui';
+import { AsideNavLink } from './AsideNavLink';
 
 export const AsideNav: React.FC = () => {
   return (
