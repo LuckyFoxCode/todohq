@@ -1,3 +1,9 @@
+import { TheHeader } from '@/layout';
+
 export const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <TheHeader />
+    </div>
+  );
 };
