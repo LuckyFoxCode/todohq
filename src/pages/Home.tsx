@@ -1,9 +1,9 @@
 import { TheHeader } from '@/layout';
 
-export const App = () => {
+export const Home: React.FC = () => {
   return (
-    <div>
+    <>
       <TheHeader />
-    </div>
+    </>
   );
 };

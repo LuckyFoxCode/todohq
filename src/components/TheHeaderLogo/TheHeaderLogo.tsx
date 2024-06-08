@@ -1,4 +1,5 @@
 import { cn } from '@/libs/utils';
+import { Link } from 'react-router-dom';
 
 interface TheHeaderLogoProps {
   className?: string;
@@ -6,8 +7,8 @@ interface TheHeaderLogoProps {
 
 export const TheHeaderLogo: React.FC<TheHeaderLogoProps> = ({ className }) => {
   return (
-    <a
-      href='/'
+    <Link
+      to='/'
       className={cn('flex w-fit', className)}
     >
       <h1 className='text-3xl text-rose-500'>
@@ -16,6 +17,6 @@ export const TheHeaderLogo: React.FC<TheHeaderLogoProps> = ({ className }) => {
           hq
         </span>
       </h1>
-    </a>
+    </Link>
   );
 };
