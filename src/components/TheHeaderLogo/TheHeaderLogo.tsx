@@ -13,7 +13,7 @@ export const TheHeaderLogo: React.FC<TheHeaderLogoProps> = ({ className }) => {
     >
       <h1 className='text-3xl text-rose-500'>
         ToDo
-        <span className='uppercase transition-colors text-black dark:text-white'>
+        <span className='uppercase text-black transition-colors dark:text-white'>
           hq
         </span>
       </h1>

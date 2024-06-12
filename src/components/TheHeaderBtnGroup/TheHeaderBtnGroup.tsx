@@ -23,7 +23,7 @@ export const TheHeaderBtnGroup: React.FC<TheHeaderBtnGroupProps> = ({
   };
 
   return (
-    <div className={cn('flex justify-center items-center gap-x-2', className)}>
+    <div className={cn('flex items-center justify-center gap-x-2', className)}>
       <Button
         iconName={PiBellSimple}
         iconSize={24}

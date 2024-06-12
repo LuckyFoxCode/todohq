@@ -5,15 +5,15 @@ import { Icon } from '../common';
 
 export const AsideNav: React.FC = () => {
   return (
-    <nav className='flex-1 overflow-y-auto mb-[10px]'>
-      <ul className='flex flex-col gap-y-[10px] '>
+    <nav className='mb-[10px] flex-1 overflow-y-auto'>
+      <ul className='flex flex-col gap-y-[10px]'>
         {routers.map((router) => (
           <li key={router.name}>
             <NavLink
               to={router.path}
               className={({ isActive }) =>
                 cn(
-                  'flex p-4 rounded-[14px] transition-colors bg-transparent text-white hover:bg-white/70 hover:text-rose-500',
+                  'flex rounded-[14px] bg-transparent p-4 text-white transition-colors hover:bg-white/70 hover:text-rose-500',
                   isActive && 'bg-white text-rose-500',
                 )
               }

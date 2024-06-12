@@ -19,7 +19,7 @@ export const Button: React.FC<ButtonProps> = ({
     <button
       onClick={onClick}
       className={cn(
-        'flex justify-center items-center p-2 rounded-lg transition-all bg-rose-500 text-white hover:bg-rose-600 hover:text-slate-700',
+        'flex items-center justify-center rounded-lg bg-rose-500 p-2 text-white transition-all hover:bg-rose-600 hover:text-slate-700',
         className,
       )}
     >
